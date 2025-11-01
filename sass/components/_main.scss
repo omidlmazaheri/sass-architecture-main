@@ -1,0 +1,31 @@
+@use '../base' as *;
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    /* Fake image, just for this example */
+    .fakeimg {
+        background-color: color-shade(theme-color(bg),30%);
+        width: 100%;
+        padding: 20px;
+    }
+
+    .side {
+        flex: 30%;
+        background-color: color-shade(theme-color(bg), 10%);
+        padding: 20px;
+    }
+
+    .main {
+        flex: 70%;
+        background-color: theme-color(bg);
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+  .container, .navbar {   
+    flex-direction: column;
+  }
+}

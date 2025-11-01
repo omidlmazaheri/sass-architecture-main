@@ -1,0 +1,23 @@
+@use "../base" as *;
+
+.card {
+  background: theme-color(card);
+  border-radius: $border-radius;
+  padding: 1rem;
+  color: theme-color(text);
+  border: 1px solid #eee;
+  
+@include transition(all);
+  &:hover {
+    transform: translateY(-4px);
+  }
+
+  h3 {
+    margin-top: 0;
+    color:  theme-color(primary);
+  }
+
+  p {
+    line-height: 1.7;
+  }
+}

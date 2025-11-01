@@ -1,0 +1,7 @@
+@use '../base' as *;
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: color-shade(theme-color(bg),20%);
+}

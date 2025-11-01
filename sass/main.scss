@@ -1,0 +1,27 @@
+@use "base" as *;
+@use "components";
+*{
+    font-family: $fontname ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+  background: theme-color(bg);
+  color: theme-color(text);
+  padding: 2rem;
+}
+
+// .container {
+//   display: grid;
+//   gap: 1.5rem;
+//   max-width: 600px;
+//   margin: auto;
+// }
+
+h1 {
+  text-align: center;
+  color: theme-color(text-white);;
+}

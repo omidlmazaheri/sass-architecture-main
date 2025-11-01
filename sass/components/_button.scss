@@ -1,0 +1,16 @@
+@use "../base" as *;
+
+.button {
+  background: theme-color(primary);
+  color: white;
+  border: none;
+  border-radius: $border-radius;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  @include transition(all);
+
+  &:hover {
+    background:color-shade(  theme-color(primary), 15%);
+    
+  }
+}

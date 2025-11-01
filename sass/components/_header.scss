@@ -1,0 +1,38 @@
+@use '../base' as *;
+
+#promot {
+    background: theme-color(secondary);
+    padding: 5px;
+    text-align: center;
+}
+
+header {
+    background-color: color-shade(theme-color(bg), 30%);
+    padding: 60px;
+    text-align: center;
+    color: theme-color(text-white);
+}
+
+/* Top navigation bar */
+.navbar {
+    display: flex;
+    background-color: theme-color(menu-theme );
+
+    a {
+        color: theme-color(text-white);
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+
+        &:hover {
+            background-color: color-shade( theme-color(bg), 70%) ;
+            color: theme-color(text-white);
+        }
+    }
+
+}
+
+
+
+/* Change color on hover */
+.navbar a:hover {}

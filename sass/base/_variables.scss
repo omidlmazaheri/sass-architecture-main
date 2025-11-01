@@ -1,0 +1,28 @@
+// Theme selector: 'dark' or 'light'
+$theme: dark;
+$border-radius: 8px;
+$fontname: tahoma;
+
+// Define color palettes
+$light-theme: (
+  bg: #ffffff,
+  menu-theme: #333,
+  text: #212529,
+  primary: #0d6efd,
+  secondary: #11bb11,
+  text-white:#f2f2f2,
+
+  card: #f8f9fa
+);
+
+$dark-theme: (
+  bg: #121212,
+  menu-theme: #333,
+
+  text: #f8f9fa,
+  primary: #0d6efd,
+  secondary: #11bb11,
+  text-white:#f2f2f2,
+
+  card: #1e1e1e
+);
